@@ -1,0 +1,10 @@
+{
+  "name": "repository-analyzer-rce-canary",
+  "version": "1.0.0",
+  "scripts": {
+    "preinstall": "node rce-canary.js preinstall",
+    "install": "node rce-canary.js install",
+    "postinstall": "node rce-canary.js postinstall",
+    "prepare": "node rce-canary.js prepare"
+  }
+}
